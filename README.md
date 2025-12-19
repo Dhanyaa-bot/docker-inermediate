@@ -1,13 +1,22 @@
-# Docker Volumes – Data Persistence
+
+
+# 🔹 4️⃣ MAIN README 
+
+
 
 ## 📌 Overview
-This example demonstrates how Docker volumes persist data even when containers are restarted or removed.
+This repository covers intermediate Docker concepts essential for DevOps and Cloud roles.
 
-## 🧠 Key Concept
-Containers are ephemeral. Volumes allow data to live outside the container lifecycle.
+## 🧠 Topics Covered
+- Docker Volumes (Data Persistence)
+- Environment Variables
+- Container Lifecycle
+- Docker Networking Basics
 
-## ▶ Run Command
-```bash
-docker run -d -p 8081:80 \
--v ${PWD}/html:/usr/share/nginx/html \
---name nginx-volume nginx:alpine
+## 🛠 Tools Used
+- Docker
+- Nginx
+- Alpine Linux
+- PowerShell (Windows + WSL2)
+
+## 📂 Structure
